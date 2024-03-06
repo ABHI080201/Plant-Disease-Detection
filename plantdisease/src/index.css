@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.submitbtn{
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.mainScreen{
+  overflow-y: scroll !important;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainScreen::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.mainScreen::-webkit-scrollbar-track {
+  background: transparent;
+}
